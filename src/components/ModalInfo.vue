@@ -28,7 +28,7 @@
           max-w-md
           mx-auto
         "
-        @click="closeModal"
+        @click.stop="closeModal"
       >
         Close
       </button>
